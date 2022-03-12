@@ -1,0 +1,97 @@
+ERROR - 2022-03-10 08:01:40 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-03-10 08:01:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\app\Controllers\Medicine.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#2 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(832): App\Controllers\Medicine->getMedicine()
+#3 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\Commands\Server\rewrite.php(43): require_once('D:\\DOCUMENTOS\\P...')
+#7 {main}
+ERROR - 2022-03-10 08:24:54 --> Unknown column 'name' in 'field list'
+ERROR - 2022-03-10 08:25:24 --> Unknown column 'name' in 'field list'
+CRITICAL - 2022-03-10 08:52:25 --> Too few arguments to function App\Controllers\Description::create(), 0 passed in D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(832): App\Controllers\Description->create()
+#1 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Description))
+#2 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\Commands\Server\rewrite.php(43): require_once('D:\\DOCUMENTOS\\P...')
+#5 {main}
+CRITICAL - 2022-03-10 14:39:07 --> Too few arguments to function App\Controllers\Description::__construct(), 0 passed in D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php on line 809 and exactly 1 expected
+#0 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(809): App\Controllers\Description->__construct()
+#1 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\Commands\Server\rewrite.php(43): require_once('D:\\DOCUMENTOS\\P...')
+#5 {main}
+CRITICAL - 2022-03-10 14:41:00 --> Too few arguments to function App\Controllers\Description::__construct(), 0 passed in D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php on line 809 and exactly 1 expected
+#0 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(809): App\Controllers\Description->__construct()
+#1 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\Commands\Server\rewrite.php(43): require_once('D:\\DOCUMENTOS\\P...')
+#5 {main}
+CRITICAL - 2022-03-10 14:41:10 --> Too few arguments to function App\Controllers\Description::__construct(), 0 passed in D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php on line 809 and exactly 1 expected
+#0 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(809): App\Controllers\Description->__construct()
+#1 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\Commands\Server\rewrite.php(43): require_once('D:\\DOCUMENTOS\\P...')
+#5 {main}
+CRITICAL - 2022-03-10 14:45:28 --> Call to a member function post() on null
+#0 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(832): App\Controllers\Description->create()
+#1 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Description))
+#2 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\Commands\Server\rewrite.php(43): require_once('D:\\DOCUMENTOS\\P...')
+#5 {main}
+CRITICAL - 2022-03-10 14:45:46 --> Call to a member function post() on null
+#0 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(832): App\Controllers\Description->create()
+#1 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Description))
+#2 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\Commands\Server\rewrite.php(43): require_once('D:\\DOCUMENTOS\\P...')
+#5 {main}
+CRITICAL - 2022-03-10 14:51:00 --> syntax error, unexpected 'var_dump' (T_STRING)
+#0 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\DOCUMENTOS\\P...')
+#1 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\Commands\Server\rewrite.php(43): require_once('D:\\DOCUMENTOS\\P...')
+#9 {main}
+ERROR - 2022-03-10 14:54:56 --> Unknown column '$11' in 'field list'
+ERROR - 2022-03-10 14:56:39 --> Unknown column '$11' in 'field list'
+ERROR - 2022-03-10 15:19:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-03-10 21:49:49 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-03-10 21:49:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\app\Controllers\Medicine.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#2 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(832): App\Controllers\Medicine->getMedicine()
+#3 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\Commands\Server\rewrite.php(43): require_once('D:\\DOCUMENTOS\\P...')
+#7 {main}
+ERROR - 2022-03-10 21:50:42 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-03-10 21:50:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\app\Controllers\Medicine.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#2 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(832): App\Controllers\Medicine->getMedicine()
+#3 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicine))
+#4 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\DOCUMENTOS\PROYECTOS PERSONALES\VUE\Medicamentos\back\system\Commands\Server\rewrite.php(43): require_once('D:\\DOCUMENTOS\\P...')
+#7 {main}
